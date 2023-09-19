@@ -1,5 +1,5 @@
 const average = (arr) =>
-  arr.reduce((acc, cur, arr) => acc + cur / arr.length, 0);
+  arr.reduce((acc, cur, i ,arr) => acc + cur / arr.length, 0);
 
 const roundOff = (num) => {
   const round = Math.round(num * 10) / 10;
